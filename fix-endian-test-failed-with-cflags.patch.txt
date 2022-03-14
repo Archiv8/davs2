@@ -1,0 +1,11 @@
+--- davs2-1.6/build/linux/configure.orig	2018-11-15 16:15:32.000000000 +0800
++++ davs2-1.6/build/linux/configure	2021-02-06 18:52:03.424659216 +0800
+@@ -922,7 +922,7 @@ ASFLAGS="$ASFLAGS -DSTACK_ALIGNMENT=$sta
+ CPU_ENDIAN="little-endian"
+ if [ $compiler = GNU ]; then
+     echo "int i[2] = {0x42494745,0}; double f[2] = {0x1.0656e6469616ep+102,0};" > conftest.c
+-    $CC $CFLAGS conftest.c -c -o conftest.o 2>/dev/null || die "endian test failed"
++    $CC conftest.c -c -o conftest.o 2>/dev/null || die "endian test failed"
+     if (${cross_prefix}strings -a conftest.o | grep -q BIGE) && (${cross_prefix}strings -a conftest.o | grep -q FPendian) ; then
+         define WORDS_BIGENDIAN
+         CPU_ENDIAN="big-endian"
