@@ -33,7 +33,6 @@ makedepends=(
     "yasm"
     )
 provides=(
-    # Official Arch Linux repositories
     "libdavs2"
     )
 conflicts=(
