@@ -13,9 +13,11 @@
 # Maintainer : Daniel Bermond < gmail-com: danielbermond >
 # Contributor: Ross Clark <contact@artisteducator.com>
 
+
 # NOTE:
 # 10-bit depth currently fails to build
 # https://github.com/pkuvcl/davs2/issues/4
+
 
 pkgname=davs2
 pkgver=1.6
