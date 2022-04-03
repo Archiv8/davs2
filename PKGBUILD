@@ -8,10 +8,9 @@
 # ToDo: Add files: User documentation
 # ToDo: Add files: Tooling
 # FixMe: Namcap warnings and errors
-# FixMe: Build failure
 
-# Maintainer : Daniel Bermond < gmail-com: danielbermond >
-# Contributor: Ross Clark <contact@artisteducator.com>
+# Maintainer: Ross Clark <archiv8@artisteducator.com>
+# Contributor: Ross Clark <archiv8@artisteducator.com>
 
 
 # NOTE:
